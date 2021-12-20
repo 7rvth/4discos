@@ -10,18 +10,11 @@ body {
   grid-template-areas: "header header header header" ". main main ." "footer footer footer footer";
   background-image: linear-gradient(
     to right bottom,
-    #e55728,
-    #fc6474,
-    #fa83b4,
-    #e9a7e1,
-    #d8c8f8,
-    #cacbf1,
-    #c3cce6,
-    #c2ccda,
-    #acb6c1,
-    #979fa9,
-    #838a92,
-    #6f757b
+    #f4c812,
+    #8cd95e,
+    #00d8ae,
+    #00cbe2,
+    #77b7e6
   );
 }
 
@@ -117,14 +110,17 @@ a {
   grid-area: transformer;
   background-image: url("../media/images/transformer.jpg");
 }
+
 .bug {
   grid-area: bug;
   background-image: url("../media/images/bug.jpg");
 }
+
 .fup_inside {
   grid-area: fup_inside;
   background-image: url("../media/images/fup_inside.jpg");
 }
+
 .shades_blue {
   grid-area: shades_blue;
   background-image: url("../media/images/shades_blue.jpg");
@@ -196,19 +192,22 @@ footer {
     background-position: center;
     background-size: auto;
   }
+
   .shades_blue_page {
     grid-template-rows: 1fr 80vh 1fr;
     background-image: url("../media/images/shades_blue.jpg");
     background-position: center;
     background-size: auto;
   }
+
   .fup_inside_page {
     grid-template-rows: 1fr 80vh 1fr;
     background-image: url("../media/images/fup_inside.jpg");
     background-position: center;
     background-size: auto;
   }
-  .bug_page {    
+
+  .bug_page {
     grid-template-rows: 1fr 80vh 1fr;
     background-image: url("../media/images/bug.jpg");
     background-position: center;
